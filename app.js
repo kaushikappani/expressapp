@@ -5,6 +5,6 @@ app.get('/', (req, res) => {
     res.send('express server started')
 });
 
-app.listen(port, () => {
+app.listen(3000, () => {
     console.log('Server started')
 })
